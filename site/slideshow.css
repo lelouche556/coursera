@@ -6,15 +6,11 @@ body {
 	font-family: Verdana, sans-serif;
 }
 .mySlides {
-	display: none;
+	display: block;
+	height:;
 }
-.myslides img {
+ img {
 	vertical-align: middle;
-	height:100px;
-
-}
-#image{
-	height:100px;
 }
 
 .slideshow{
