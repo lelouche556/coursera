@@ -8,8 +8,13 @@ body {
 .mySlides {
 	display: none;
 }
-img {
+.myslides img {
 	vertical-align: middle;
+	height:100px;
+
+}
+#image{
+	height:100px;
 }
 
 .slideshow{
