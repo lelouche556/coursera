@@ -4,10 +4,10 @@
 
 body {
 	font-family: Verdana, sans-serif;
+	margin:0px;
 }
 .mySlides {
 	display: block;
-	height:;
 }
  img {
 	vertical-align: middle;
@@ -16,19 +16,26 @@ body {
 .slideshow{
 	max-width:1500px;
 	position:relative;
-	margin:auto;
+	margin:0px;
 }
 
 .text{
 	font-family:verdana;
-	size:12px;
+    position: absolute;
+    bottom: 58px; 
+    left: 48px;
+	font-size:30px;
 	color:white;
 	padding:8px 12px;
-	bottom:8px;
-	text-align:center;
+	text-align:left;
 	width:100%;
 }
 
+.slideimage{
+	height:400px;
+	width:1550px;
+	
+}
 .number-text{
 	color:#f2f2f2;
 	font-size:13px;
@@ -40,7 +47,7 @@ body {
 .dot{
 	height:15px;
 	width:15px;
-	margin:0 25px;
+	margin:0 5px;
 	background-color:#bbb;
 	border-radius:50%;
 	display:inline-block;
@@ -48,7 +55,7 @@ body {
 }
 
 .active{
-	background:lightgrey;
+	background:grey;
 }
 
 /* Fading animation */
@@ -70,6 +77,7 @@ body {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 600px) {
   .text {font-size: 11px}
+  .slideshow{width:auto;}
 }

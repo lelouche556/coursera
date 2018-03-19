@@ -12,10 +12,10 @@ p.center{
 	text-decoration: 
 }
 #footer{
-	height: 200px;
-	font-size:10px;
-	font-color:red;
-	text-align:left;
-	width:auto;
+	height: 50px;
+	font-size:12px;
+	color:white;
+	text-align:center;
+	width:100%;
 	background-color:grey;
 }
