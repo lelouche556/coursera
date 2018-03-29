@@ -1,3 +1,6 @@
+*{
+	box-sizing:border-box;
+}
 .header{
 	height:100px;
 	width:100%;
@@ -11,11 +14,18 @@ p.center{
 	font-size:100px;
 	text-decoration: 
 }
+
+.imgcontainer{
+	float:left;
+	display:inline-block;
+}	
+		
 #footer{
 	height: 50px;
 	font-size:12px;
 	color:white;
 	text-align:center;
-	width:100%;
+	width:auto;
 	background-color:grey;
+	clear:both;
 }
